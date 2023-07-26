@@ -1,0 +1,1 @@
+K:\Codes\C#\Example\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config

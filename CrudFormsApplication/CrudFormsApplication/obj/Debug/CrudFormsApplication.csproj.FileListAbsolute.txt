@@ -1,0 +1,10 @@
+K:\Codes\C#\CrudFormsApplication\CrudFormsApplication\bin\Debug\CrudFormsApplication.exe.config
+K:\Codes\C#\CrudFormsApplication\CrudFormsApplication\obj\Debug\CrudFormsApplication.Form1.resources
+K:\Codes\C#\CrudFormsApplication\CrudFormsApplication\obj\Debug\CrudFormsApplication.Properties.Resources.resources
+K:\Codes\C#\CrudFormsApplication\CrudFormsApplication\obj\Debug\CrudFormsApplication.csproj.GenerateResource.Cache
+K:\Codes\C#\CrudFormsApplication\CrudFormsApplication\bin\Debug\CrudFormsApplication.exe
+K:\Codes\C#\CrudFormsApplication\CrudFormsApplication\bin\Debug\CrudFormsApplication.pdb
+K:\Codes\C#\CrudFormsApplication\CrudFormsApplication\obj\Debug\CrudFormsApplication.exe
+K:\Codes\C#\CrudFormsApplication\CrudFormsApplication\obj\Debug\CrudFormsApplication.pdb
+K:\Codes\C#\CrudFormsApplication\CrudFormsApplication\obj\Debug\CrudFormsApplication.csprojAssemblyReference.cache
+K:\Codes\C#\CrudFormsApplication\CrudFormsApplication\obj\Debug\CrudFormsApplication.csproj.CoreCompileInputs.cache

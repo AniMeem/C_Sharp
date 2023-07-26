@@ -1,0 +1,5 @@
+K:\Codes\C#\task_3\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+K:\Codes\C#\task_3\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+K:\Codes\C#\task_3\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+K:\Codes\C#\task_3\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+K:\Codes\C#\task_3\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb

@@ -1,0 +1,6 @@
+K:\Codes\C#\ConsoleApplication6\ConsoleApplication6\bin\Release\ConsoleApplication6.exe.config
+K:\Codes\C#\ConsoleApplication6\ConsoleApplication6\obj\Release\ConsoleApplication6.csprojResolveAssemblyReference.cache
+K:\Codes\C#\ConsoleApplication6\ConsoleApplication6\bin\Release\ConsoleApplication6.exe
+K:\Codes\C#\ConsoleApplication6\ConsoleApplication6\bin\Release\ConsoleApplication6.pdb
+K:\Codes\C#\ConsoleApplication6\ConsoleApplication6\obj\Release\ConsoleApplication6.exe
+K:\Codes\C#\ConsoleApplication6\ConsoleApplication6\obj\Release\ConsoleApplication6.pdb

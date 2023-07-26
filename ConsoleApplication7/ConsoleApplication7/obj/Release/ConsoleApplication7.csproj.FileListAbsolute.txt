@@ -1,0 +1,6 @@
+K:\Codes\C#\ConsoleApplication7\ConsoleApplication7\bin\Release\ConsoleApplication7.exe.config
+K:\Codes\C#\ConsoleApplication7\ConsoleApplication7\bin\Release\ConsoleApplication7.exe
+K:\Codes\C#\ConsoleApplication7\ConsoleApplication7\bin\Release\ConsoleApplication7.pdb
+K:\Codes\C#\ConsoleApplication7\ConsoleApplication7\obj\Release\ConsoleApplication7.exe
+K:\Codes\C#\ConsoleApplication7\ConsoleApplication7\obj\Release\ConsoleApplication7.pdb
+K:\Codes\C#\ConsoleApplication7\ConsoleApplication7\obj\Release\ConsoleApplication7.csprojResolveAssemblyReference.cache

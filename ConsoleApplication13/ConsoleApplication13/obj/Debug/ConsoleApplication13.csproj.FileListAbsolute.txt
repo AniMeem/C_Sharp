@@ -1,0 +1,6 @@
+K:\Codes\C#\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.exe.config
+K:\Codes\C#\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.exe
+K:\Codes\C#\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.pdb
+K:\Codes\C#\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.csprojResolveAssemblyReference.cache
+K:\Codes\C#\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.exe
+K:\Codes\C#\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.pdb

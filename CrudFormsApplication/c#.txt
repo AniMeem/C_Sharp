@@ -1,0 +1,183 @@
+
+//////Ok --amra rate 12 tay eta complete korbooo inshaAllah...
+
+
+isNew==true
+New mode-->insert
+isNew==false
+edit mode--->update
+
+
+
+select * from Student where Name like ''
+_---->exact one character
+%--->0 to many character
+
+'s_m%'
+first character is s
+second there will be one character
+third character is m 
+
+
+smith---X
+alex---X
+ted---X
+sophie---X
+sam---CORRECT
+sim---CORRECT
+sima--CORRECT
+simran--CORRECT
+somy---CORRECT
+
+
+
+ "select * from Department where Name like '%searchvalue%' "
+ "select * from Department where Name like '%"+textBox4.Text+"%' "
+ 
+ 
+ 
+    usertype=="student"
+    usertype="teacher"
+    if(usertype=="student")
+ Dashboard1
+else
+Dashboard2
+    Form1--->Form2
+    select * from Login where username='' and password=''
+    dt.Rows[0]["Username"].Value.Tostring()==""
+
+	
+SqlConnection conn=new SqlConnection(@"Data Source=DESKTOP-NJBKCUM\SQLEXPRESS;Initial Catalog=OOP2SDB;Integrated Security=True");
+conn.Open();
+string query = "select * from Registered_User";
+SqlCommand cmd=new SqlCommand(query,conn);
+cmd.ExecuteNonQuery();
+SqlDataAdapter adp=new SqlDataAdapter(cmd);
+DataSet ds=new DataSet();
+adp.Fill(ds);
+DataTable dt = ds.Tables[0];
+dataGridView1.AutoGenerateColumns = false;
+dataGridView1.DataSource = dt;
+dataGridView1.Refresh();
+
+
+
+{
+SqlConnection conn=new SqlConnection(@"Data Source=DESKTOP-NJBKCUM\SQLEXPRESS;Initial Catalog=OOP2SDB;Integrated Security=True");
+conn.Open();
+string query = "select * from Registered_User";
+SqlCommand cmd=new SqlCommand(query,conn);
+cmd.ExecuteNonQuery();
+SqlDataAdapter adp=new SqlDataAdapter(cmd);
+DataSet ds=new DataSet();
+adp.Fill(ds);
+DataTable dt = ds.Tables[0];
+dataGridView1.DataSource = dt;
+dataGridView1.Refresh();
+}
+
+
+
+//Get-All
+SqlConnection conn=new SqlConnection(@"Data Source=DESKTOP-NJBKCUM\SQLEXPRESS;Initial Catalog=OOP2SDB;Integrated Security=True");
+conn.Open();
+string query = "select * from Registered_User";
+SqlCommand cmd=new SqlCommand(query,conn);
+cmd.ExecuteNonQuery();
+SqlDataAdapter adp=new SqlDataAdapter(cmd);
+DataSet ds=new DataSet();
+adp.Fill(ds);
+DataTable dt = ds.Tables[0];
+dataGridView1.AutoGenerateColumns = false;
+dataGridView1.DataSource = dt;
+dataGridView1.Refresh();
+
+
+///Get
+private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+{
+if (e.RowIndex >= 0)
+{
+int id = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString());
+//MessageBox.Show(id + " ");
+SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-NJBKCUM\SQLEXPRESS;Initial Catalog=OOP2SDB;Integrated Security=True");
+conn.Open();
+string query = "select * from Registered_User where ID="+id;
+SqlCommand cmd = new SqlCommand(query, conn);
+cmd.ExecuteNonQuery();
+SqlDataAdapter adp = new SqlDataAdapter(cmd);
+DataSet ds = new DataSet();
+adp.Fill(ds);
+DataTable dt = ds.Tables[0];
+textBox1.Text = dt.Rows[0]["ID"].ToString();
+textBox2.Text = dt.Rows[0]["Name"].ToString();
+textBox3.Text = dt.Rows[0]["Email"].ToString();
+dateTimePicker1.Text = dt.Rows[0]["DOB"].ToString();
+conn.Close();
+}
+}
+
+///insert Query
+"insert into Registered_User (Name,Username,Password,Email,Gender,Skills,DOB) values('"+name+"','"+username+"','"+password+"','"+email+"','"+gender+"','"+skills+"','"+dob+"')";
+
+///////
+
+private void button1_Click(object sender, EventArgs e)
+{
+string name, username, password, email, gender = " ", skills = " ";
+DateTime dob;
+name = textBox1.Text;
+username = textBox2.Text;
+password = textBox3.Text;
+email = textBox4.Text;
+dob = Convert.ToDateTime(dateTimePicker1.Text);
+if (checkBox1.Checked)
+skills += "Java,";
+if (checkBox2.Checked)
+skills += "Python,";
+if (checkBox3.Checked)
+skills += "c#,";
+if (checkBox4.Checked)
+skills += "F#";
+if (radioButton1.Checked)
+{
+gender = "Male";
+}
+else if (radioButton2.Checked)
+gender = "Female";
+else if (radioButton3.Checked)
+gender = "Others";
+else
+{
+gender = "";
+}
+
+ try
+{
+conn =
+new SqlConnection(
+@"Data Source=DESKTOP-NJBKCUM\SQLEXPRESS;Initial Catalog=OOP2SDB;Integrated Security=True");
+conn.Open();
+string query =
+"insert into Registered_User (Name,Username,Password,Email,Gender,Skills,DOB) values('" + name +
+"','" + username + "','" + password + "','" + email + "','" + gender + "','" + skills + "','" +
+dob + "')";
+SqlCommand cmd = new SqlCommand(query, conn);
+int row = cmd.ExecuteNonQuery();
+if (row > 0)
+MessageBox.Show(username + " is registered successfully");
+
+ }
+
+ catch (Exception ex)
+{
+MessageBox.Show(ex.Message);
+}
+finally
+{
+conn.Close();
+}
+}
+
+
+

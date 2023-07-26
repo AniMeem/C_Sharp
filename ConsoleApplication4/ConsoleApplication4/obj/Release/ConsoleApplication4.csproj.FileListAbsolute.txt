@@ -1,0 +1,5 @@
+K:\Codes\C#\ConsoleApplication4\ConsoleApplication4\bin\Release\ConsoleApplication4.exe.config
+K:\Codes\C#\ConsoleApplication4\ConsoleApplication4\bin\Release\ConsoleApplication4.exe
+K:\Codes\C#\ConsoleApplication4\ConsoleApplication4\bin\Release\ConsoleApplication4.pdb
+K:\Codes\C#\ConsoleApplication4\ConsoleApplication4\obj\Release\ConsoleApplication4.exe
+K:\Codes\C#\ConsoleApplication4\ConsoleApplication4\obj\Release\ConsoleApplication4.pdb

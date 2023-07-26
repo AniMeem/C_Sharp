@@ -1,0 +1,6 @@
+K:\Codes\C#\HelloWorld\ConsoleApplication2\bin\Release\ConsoleApplication2.exe.config
+K:\Codes\C#\HelloWorld\ConsoleApplication2\bin\Release\ConsoleApplication2.exe
+K:\Codes\C#\HelloWorld\ConsoleApplication2\bin\Release\ConsoleApplication2.pdb
+K:\Codes\C#\HelloWorld\ConsoleApplication2\obj\Release\ConsoleApplication2.csprojResolveAssemblyReference.cache
+K:\Codes\C#\HelloWorld\ConsoleApplication2\obj\Release\ConsoleApplication2.exe
+K:\Codes\C#\HelloWorld\ConsoleApplication2\obj\Release\ConsoleApplication2.pdb

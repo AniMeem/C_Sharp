@@ -1,0 +1,1 @@
+K:\Codes\C#\HelloWorld\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config

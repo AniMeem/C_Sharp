@@ -1,0 +1,6 @@
+K:\Codes\C#\ConsoleApplication9\ConsoleApplication9\bin\Release\ConsoleApplication9.exe.config
+K:\Codes\C#\ConsoleApplication9\ConsoleApplication9\bin\Release\ConsoleApplication9.exe
+K:\Codes\C#\ConsoleApplication9\ConsoleApplication9\bin\Release\ConsoleApplication9.pdb
+K:\Codes\C#\ConsoleApplication9\ConsoleApplication9\obj\Release\ConsoleApplication9.csprojResolveAssemblyReference.cache
+K:\Codes\C#\ConsoleApplication9\ConsoleApplication9\obj\Release\ConsoleApplication9.exe
+K:\Codes\C#\ConsoleApplication9\ConsoleApplication9\obj\Release\ConsoleApplication9.pdb
